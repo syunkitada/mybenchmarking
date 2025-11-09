@@ -133,9 +133,9 @@
 
 **Test for User Story 3 (Critical Path)**:
 
-- [ ] T058 [US3] Test calculate_delta() accuracy with known values (<1% error) in tests/test_analysis.py
-- [ ] T059 [US3] Test compare_results() with different metrics in tests/test_analysis.py
-- [ ] T060 [US3] Test detect_config_changes() identifies kernel parameter differences in tests/test_analysis.py
+- [x] T058 [US3] Test calculate_delta() accuracy with known values (<1% error) in tests/test_analysis.py
+- [x] T059 [US3] Test compare_results() with different metrics in tests/test_analysis.py
+- [x] T060 [US3] Test detect_config_changes() identifies kernel parameter differences in tests/test_analysis.py
 
 **Checkpoint**: User Story 3 complete - Can compare results and see performance trends with accurate calculations
 
@@ -149,18 +149,18 @@
 
 ### Implementation for User Story 4
 
-- [ ] T061 [P] [US4] Add "Metrics Explained" section to docs/cpu/sysbench.md with events_per_second interpretation
-- [ ] T062 [P] [US4] Add "Metrics Explained" section to docs/cpu/stress-ng.md with operations_per_second interpretation
-- [ ] T063 [P] [US4] Add "Metrics Explained" section to docs/memory/sysbench-memory.md with bandwidth interpretation
-- [ ] T064 [P] [US4] Add "Metrics Explained" section to docs/disk/fio.md with IOPS, bandwidth, latency interpretation
-- [ ] T065 [P] [US4] Add "Metrics Explained" section to docs/disk/dd.md with throughput interpretation
-- [ ] T066 [P] [US4] Add "Metrics Explained" section to docs/network/iperf3.md with bandwidth, jitter interpretation
-- [ ] T067 [P] [US4] Add "Typical Values" section to docs/metrics/iops.md with SSD vs HDD vs NVMe comparisons
-- [ ] T068 [P] [US4] Add "Typical Values" section to docs/metrics/throughput.md with disk/network type comparisons
-- [ ] T069 [P] [US4] Add "Typical Values" section to docs/metrics/latency.md with acceptable ranges
-- [ ] T070 [P] [US4] Add "Interpretation Guide" section to each metric doc explaining when values are good/poor
-- [ ] T071 [P] [US4] Create docs/interpretation.md with general guidance on reading benchmark results
-- [ ] T072 [US4] Add links from tool docs to relevant metric definitions
+- [x] T061 [P] [US4] Add "Metrics Explained" section to docs/cpu/sysbench.md with events_per_second interpretation
+- [x] T062 [P] [US4] Add "Metrics Explained" section to docs/cpu/stress-ng.md with operations_per_second interpretation
+- [x] T063 [P] [US4] Add "Metrics Explained" section to docs/memory/sysbench-memory.md with bandwidth interpretation
+- [x] T064 [P] [US4] Add "Metrics Explained" section to docs/disk/fio.md with IOPS, bandwidth, latency interpretation
+- [x] T065 [P] [US4] Add "Metrics Explained" section to docs/disk/dd.md with throughput interpretation
+- [x] T066 [P] [US4] Add "Metrics Explained" section to docs/network/iperf3.md with bandwidth, jitter interpretation
+- [x] T067 [P] [US4] Add "Typical Values" section to docs/metrics/iops.md with SSD vs HDD vs NVMe comparisons
+- [x] T068 [P] [US4] Add "Typical Values" section to docs/metrics/throughput.md with disk/network type comparisons
+- [x] T069 [P] [US4] Add "Typical Values" section to docs/metrics/latency.md with acceptable ranges
+- [x] T070 [P] [US4] Add "Interpretation Guide" section to each metric doc explaining when values are good/poor
+- [x] T071 [P] [US4] Create docs/interpretation.md with general guidance on reading benchmark results
+- [x] T072 [US4] Add links from tool docs to relevant metric definitions
 
 **Checkpoint**: User Story 4 complete - Documentation includes comprehensive interpretation guidance
 
@@ -174,18 +174,18 @@
 
 ### Implementation for User Story 5
 
-- [ ] T073 [P] [US5] Add Ubuntu/Debian installation section to docs/cpu/sysbench.md
-- [ ] T074 [P] [US5] Add RHEL/Fedora installation section to docs/cpu/sysbench.md
-- [ ] T075 [P] [US5] Add Ubuntu/Debian installation section to docs/cpu/stress-ng.md
-- [ ] T076 [P] [US5] Add RHEL/Fedora installation section to docs/cpu/stress-ng.md
-- [ ] T077 [P] [US5] Add Ubuntu/Debian installation section to docs/memory/mbw.md (compile from source)
-- [ ] T078 [P] [US5] Add Ubuntu/Debian installation section to docs/disk/fio.md
-- [ ] T079 [P] [US5] Add RHEL/Fedora installation section to docs/disk/fio.md
-- [ ] T080 [P] [US5] Add Ubuntu/Debian installation section to docs/disk/bonnie++.md
-- [ ] T081 [P] [US5] Add Ubuntu/Debian installation section to docs/network/iperf3.md
-- [ ] T082 [P] [US5] Add RHEL/Fedora installation section to docs/network/iperf3.md
-- [ ] T083 [P] [US5] Add prerequisites section to each tool doc listing dependencies
-- [ ] T084 [US5] Create docs/installation-guide.md with general Linux package management tips
+- [x] T073 [P] [US5] Add Ubuntu/Debian installation section to docs/cpu/sysbench.md
+- [x] T074 [P] [US5] Add RHEL/Fedora installation section to docs/cpu/sysbench.md
+- [x] T075 [P] [US5] Add Ubuntu/Debian installation section to docs/cpu/stress-ng.md
+- [x] T076 [P] [US5] Add RHEL/Fedora installation section to docs/cpu/stress-ng.md
+- [x] T077 [P] [US5] Add Ubuntu/Debian installation section to docs/memory/mbw.md (compile from source)
+- [x] T078 [P] [US5] Add Ubuntu/Debian installation section to docs/disk/fio.md
+- [x] T079 [P] [US5] Add RHEL/Fedora installation section to docs/disk/fio.md
+- [x] T080 [P] [US5] Add Ubuntu/Debian installation section to docs/disk/bonnie++.md
+- [x] T081 [P] [US5] Add Ubuntu/Debian installation section to docs/network/iperf3.md
+- [x] T082 [P] [US5] Add RHEL/Fedora installation section to docs/network/iperf3.md
+- [x] T083 [P] [US5] Add prerequisites section to each tool doc listing dependencies
+- [x] T084 [US5] Create docs/installation-guide.md with general Linux package management tips
 
 **Checkpoint**: User Story 5 complete - All tools have complete installation instructions
 
@@ -197,13 +197,13 @@
 
 - [x] T085 [P] Add 'mybench system detect' command in src/mybench/cli/system.py for auto-detecting current system
 - [x] T086 [P] Implement auto-detect current system configuration in src/mybench/utils/detect.py (kernel, software versions)
-- [ ] T087 [P] Add --export json/csv option to 'mybench list' command for data export
+- [x] T087 [P] Add --export json/csv option to 'mybench list' command for data export
 - [x] T088 [P] Add color coding to comparison output (green=improvement, red=regression) in format.py
 - [x] T089 [P] Improve error messages with actionable next steps throughout CLI commands
 - [x] T090 [P] Add input validation with helpful error messages to all CLI prompts
 - [x] T091 Create project README.md with quickstart guide and example workflow
 - [x] T092 Add usage examples to README.md showing common workflows
-- [ ] T093 [P] Create CONTRIBUTING.md with instructions for adding new tool documentation
+- [x] T093 [P] Create CONTRIBUTING.md with instructions for adding new tool documentation
 - [ ] T094 Add shell completion support (optional) for bash/zsh
 - [x] T095 Final review: ensure all JSON files are pretty-printed with consistent formatting
 

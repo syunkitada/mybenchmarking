@@ -74,3 +74,9 @@ HW/OSなどの不変なSystem情報は分離して管理できるようにしま
 ```
 /speckit.implement
 ```
+
+一回で完了しないので、tasks.md のチェックが埋まってくまで何度か実行します。
+
+```
+/speckit.implement
+```

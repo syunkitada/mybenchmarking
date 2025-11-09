@@ -3,6 +3,12 @@
 import click
 from pathlib import Path
 
+from .system import system
+from .save import save_cmd
+from .list import list_cmd
+from .show import show_cmd
+from .compare import compare
+
 
 # Get project version
 __version__ = "0.1.0"
@@ -28,19 +34,12 @@ def cli(ctx):
     ctx.obj["DOCS_PATH"] = ctx.obj["BASE_PATH"] / "docs"
 
 
-# Import and register subcommands
-# These will be implemented in separate modules
-# from .system import system
-# from .save import save_cmd
-# from .list import list_cmd
-# from .show import show_cmd
-# from .compare import compare_cmd
-
-# cli.add_command(system)
-# cli.add_command(save_cmd)
-# cli.add_command(list_cmd)
-# cli.add_command(show_cmd)
-# cli.add_command(compare_cmd)
+# Register subcommands
+cli.add_command(system)
+cli.add_command(save_cmd, name="save")
+cli.add_command(list_cmd, name="list")
+cli.add_command(show_cmd, name="show")
+cli.add_command(compare)
 
 
 if __name__ == "__main__":
